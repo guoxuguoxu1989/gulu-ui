@@ -8,12 +8,13 @@
   </div>
 </template>
 
-<script>
-import TopNav from '../components/Topnav.vue'
+<script lang="ts">
+import TopNav from "../components/TopNav.vue";
+
 export default {
-  name: 'Doc',
+  name: "Doc",
   components: { TopNav }
-}
+};
 </script>
 
 <style scoped>
